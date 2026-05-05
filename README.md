@@ -41,8 +41,11 @@
 - [🚀 Começando](#-começando)
 - [💻 Como Usar](#-como-usar)
 - [📊 Formatos de Saída](#-formatos-de-saída)
+
+
 ---
 ## 🎬 **Demo Rápida**
+
 
 ```bash
 # Clone e execute em 30 segundos
@@ -51,6 +54,8 @@ cd gerador-massa-dados-qa-js
 npm install
 npm start
 
+
+
 # 🎉 Saída esperada:
 # 🚀 Starting data generation...
 # 📊 Configuration: 10 users, 20 products
@@ -58,6 +63,8 @@ npm start
 # ✅ Generated 20 products (20 valid)
 # 💾 Data exported to JSON, CSV, SQL
 # ✨ Data generation completed!
+
+
 🚀 Começando
 📋 Pré-requisitos
 bash
@@ -89,9 +96,7 @@ npm start
 bash
 
 npm start              # Gera massa de dados padrão
-npm run dev            # Modo desenvolvimento (auto-reload)
 npm test               # Executa testes unitários
-npm run test:coverage  # Gera relatório de cobertura
 npm run clean          # Limpa dados gerados
 npm run validate       # Valida integridade dos dados
 
